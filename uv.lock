@@ -1450,6 +1450,7 @@ dependencies = [
     { name = "pydantic" },
     { name = "regex" },
     { name = "requests" },
+    { name = "setuptools" },
     { name = "tls-client" },
 ]
 
@@ -1470,6 +1471,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.3.0,<3.0.0" },
     { name = "regex", specifier = ">=2024.4.28,<2025.0.0" },
     { name = "requests", specifier = ">=2.31.0,<3.0.0" },
+    { name = "setuptools", specifier = ">=75.8.0" },
     { name = "tls-client", specifier = ">=1.0.1,<2.0.0" },
 ]
 

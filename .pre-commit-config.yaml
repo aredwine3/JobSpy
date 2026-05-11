@@ -5,3 +5,11 @@ repos:
   - id: black
     language_version: python
     args: [--line-length=88, --quiet]
+
+- repo: local
+  hooks:
+  - id: install-jobspy
+    name: Install JobSpy
+    entry: pip install -e .
+    language: python
+    always_run: true
